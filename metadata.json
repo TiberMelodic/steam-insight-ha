@@ -1,0 +1,5 @@
+{
+  "name": "Steam Profile Viewer",
+  "description": "A clean, minimalist web app to view your Steam profile and game statistics.",
+  "requestFramePermissions": []
+}

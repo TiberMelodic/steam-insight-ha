@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  steam-viewer:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - STEAM_API_KEY=${STEAM_API_KEY}
+    restart: unless-stopped
